@@ -2,6 +2,13 @@
 
 All notable changes to `laravel-binary-uuid` will be documented in this file
 
+## 2.0.0 - 2020-02-19
+
+- support for Laravel 6.x
+- dropped support for Laravel 5.x
+- migrated namespace
+- updated references to spatie
+
 ## 1.3.0 - 2018-09-24
 
 - add eloquent-ness support

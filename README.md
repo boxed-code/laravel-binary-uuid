@@ -1,15 +1,10 @@
-**THIS PACKAGE IS NOT MAINTAINED ANYMORE**
-
-Alternatives: https://github.com/michaeldyrynda/laravel-efficient-uuid & https://github.com/michaeldyrynda/laravel-model-uuid
-
 # Using optimised binary UUIDs in Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-binary-uuid.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-binary-uuid)
-[![Build Status](https://img.shields.io/travis/spatie/laravel-binary-uuid/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-binary-uuid)
-[![Code coverage](https://scrutinizer-ci.com/g/spatie/laravel-binary-uuid/badges/coverage.png)](https://scrutinizer-ci.com/g/spatie/laravel-binary-uuid)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-binary-uuid.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-binary-uuid)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/boxed-code/laravel-binary-uuid.svg?style=flat-square)](https://packagist.org/packages/boxed-code/laravel-binary-uuid)
+[![Tests](https://github.com/boxed-code/laravel-binary-uuid/actions/workflows/run_tests.yml/badge.svg)](https://github.com/boxed-code/laravel-binary-uuid/actions/workflows/run_tests.yml)
 [![StyleCI](https://styleci.io/repos/110949385/shield?branch=master)](https://styleci.io/repos/110949385)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-binary-uuid.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-binary-uuid)
+
+*Forked from the [archived package](https://github.com/spatie/laravel-binary-uuid) at spaite, maintenance releases only.*
 
 Using a regular uuid as a primary key is guaranteed to be slow.
 
@@ -26,7 +21,7 @@ The package currently only supports MySQL and SQLite.
 You can install the package via Composer:
 
 ```bash
-composer require spatie/laravel-binary-uuid
+composer require boxed-code/laravel-binary-uuid
 ```
 
 ## Usage
@@ -40,11 +35,11 @@ Schema::create('table_name', function (Blueprint $table) {
 });
 ```
 
-To get your model to work with the encoded UUID (i.e. to use uuid as a primary key), you must let your model use the `Spatie\BinaryUuid\HasBinaryUuid` trait.
+To get your model to work with the encoded UUID (i.e. to use uuid as a primary key), you must let your model use the `BoxedCode\BinaryUuid\HasBinaryUuid` trait.
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Spatie\BinaryUuid\HasBinaryUuid;
+use BoxedCode\BinaryUuid\HasBinaryUuid;
 
 class TestModel extends Model
 {
@@ -56,7 +51,7 @@ If don't like the primary key named `uuid` you can manually specify the `getKeyN
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Spatie\BinaryUuid\HasBinaryUuid;
+use BoxedCode\BinaryUuid\HasBinaryUuid;
 
 class TestModel extends Model
 {
@@ -75,7 +70,7 @@ If you try converting your model to JSON with binary attributes, you will see er
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Spatie\BinaryUuid\HasBinaryUuid;
+use BoxedCode\BinaryUuid\HasBinaryUuid;
 
 class TestModel extends Model
 {

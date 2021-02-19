@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test;
+namespace BoxedCode\BinaryUuid\Test;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
-use Spatie\BinaryUuid\UuidServiceProvider;
+use BoxedCode\BinaryUuid\UuidServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

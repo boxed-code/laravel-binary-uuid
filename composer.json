@@ -1,11 +1,11 @@
 {
-    "name": "spatie/laravel-binary-uuid",
+    "name": "boxed-code/laravel-binary-uuid",
     "description": "Binary support for UUIDs in Laravel",
     "keywords": [
         "spatie",
         "laravel-binary-uuid"
     ],
-    "homepage": "https://github.com/spatie/laravel-binary-uuid",
+    "homepage": "https://github.com/boxed-code/laravel-binary-uuid",
     "license": "MIT",
     "authors": [
         {
@@ -13,26 +13,32 @@
             "email": "brent@spatie.be",
             "homepage": "https://spatie.be",
             "role": "Developer"
+        },
+        {
+            "name": "Oliver Green",
+            "email": "green2go@gmail.com",
+            "homepage": "https://boxedcode.co.uk",
+            "role": "Maintainer"
         }
     ],
     "require": {
-        "php": "^7.1",
-        "illuminate/queue": "~5.5.28|~5.6.0|~5.7.0",
-        "ramsey/uuid": "^3.7"
+        "php": "^7.2|^8.0",
+        "illuminate/queue": "~6.0",
+        "ramsey/uuid": "^3.0|^4.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^3.5|~3.6.0|~3.7.0",
-        "phpunit/phpunit": "^6.5|^7.0",
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0|^9.0",
         "scrutinizer/ocular": "^1.5"
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\BinaryUuid\\": "src"
+            "BoxedCode\\BinaryUuid\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\BinaryUuid\\Test\\": "tests"
+            "BoxedCode\\BinaryUuid\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\BinaryUuid\\UuidServiceProvider"
+                "BoxedCode\\BinaryUuid\\UuidServiceProvider"
             ]
         }
     }

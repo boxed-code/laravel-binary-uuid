@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Benchmark;
+namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
 use Faker\Factory;
 use Doctrine\DBAL\Driver\Connection;
 use Doctrine\DBAL\Logging\DebugStack;
-use Spatie\BinaryUuid\Test\Benchmark\Result\FileResult;
-use Spatie\BinaryUuid\Test\Benchmark\Result\InlineResult;
+use BoxedCode\BinaryUuid\Test\Benchmark\Result\FileResult;
+use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
 
 abstract class Benchmark
 {

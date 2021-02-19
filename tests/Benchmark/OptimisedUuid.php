@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Benchmark;
+namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
-use Spatie\BinaryUuid\Test\Benchmark\Result\InlineResult;
+use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
 
 class OptimisedUuid extends Benchmark
 {

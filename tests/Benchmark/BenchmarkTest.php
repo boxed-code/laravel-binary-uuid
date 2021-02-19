@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Benchmark;
+namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
 use PHPUnit\Framework\TestCase;
 use Doctrine\DBAL\Configuration;

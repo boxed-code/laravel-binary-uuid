@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Benchmark;
+namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
-use Spatie\BinaryUuid\Test\Benchmark\Result\InlineResult;
+use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
 
 class NormalId extends Benchmark
 {

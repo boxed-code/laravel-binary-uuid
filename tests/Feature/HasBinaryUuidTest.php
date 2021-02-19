@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Feature;
+namespace BoxedCode\BinaryUuid\Test\Feature;
 
 use Ramsey\Uuid\Uuid;
-use Spatie\BinaryUuid\Test\TestCase;
-use Spatie\BinaryUuid\Test\TestModel;
+use BoxedCode\BinaryUuid\Test\TestCase;
+use BoxedCode\BinaryUuid\Test\TestModel;
 
 class HasBinaryUuidTest extends TestCase
 {
@@ -163,7 +163,7 @@ class HasBinaryUuidTest extends TestCase
 
         app('router')->get('uuid-test/{model}')->name('uuid-test');
 
-        $this->assertContains("/uuid-test/{$uuid}", route('uuid-test', $model));
+        $this->assertStringContainsString("/uuid-test/{$uuid}", route('uuid-test', $model));
     }
 
     /** @test */
@@ -173,8 +173,8 @@ class HasBinaryUuidTest extends TestCase
 
         $json = $model->toJson();
 
-        $this->assertContains($model->uuid_text, $json);
-        $this->assertNotContains($model->uuid, $json);
+        $this->assertStringContainsString($model->uuid_text, $json);
+        $this->assertStringNotContainsString($model->uuid, $json);
     }
 
     /** @test */
@@ -184,8 +184,8 @@ class HasBinaryUuidTest extends TestCase
 
         $json = json_encode($model);
 
-        $this->assertContains($model->uuid_text, $json);
-        $this->assertNotContains($model->uuid, $json);
+        $this->assertStringContainsString($model->uuid_text, $json);
+        $this->assertStringNotContainsString($model->uuid, $json);
     }
 
     /** @test */

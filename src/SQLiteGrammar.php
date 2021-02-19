@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\BinaryUuid;
+namespace BoxedCode\BinaryUuid;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Schema\Grammars\SQLiteGrammar as IlluminateSQLiteGrammar;

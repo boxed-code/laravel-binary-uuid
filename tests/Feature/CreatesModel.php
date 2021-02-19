@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Feature;
+namespace BoxedCode\BinaryUuid\Test\Feature;
 
-use Spatie\BinaryUuid\Test\TestModel;
+use BoxedCode\BinaryUuid\Test\TestModel;
 
 trait CreatesModel
 {

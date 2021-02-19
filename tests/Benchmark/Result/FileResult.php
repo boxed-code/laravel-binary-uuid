@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Benchmark\Result;
+namespace BoxedCode\BinaryUuid\Test\Benchmark\Result;
 
-use Spatie\BinaryUuid\Test\Benchmark\Benchmark;
+use BoxedCode\BinaryUuid\Test\Benchmark\Benchmark;
 
 class FileResult
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\BinaryUuid;
+namespace BoxedCode\BinaryUuid;
 
 use Ramsey\Uuid\Uuid;
 use Illuminate\Database\Eloquent\Model;

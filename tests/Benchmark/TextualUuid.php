@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Benchmark;
+namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
 use Ramsey\Uuid\Uuid;
-use Spatie\BinaryUuid\Test\Benchmark\Result\InlineResult;
+use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
 
 class TextualUuid extends Benchmark
 {

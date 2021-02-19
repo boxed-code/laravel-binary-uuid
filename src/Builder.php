@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\BinaryUuid;
+namespace BoxedCode\BinaryUuid;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 

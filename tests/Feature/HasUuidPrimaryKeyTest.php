@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\BinaryUuid\Test\Feature;
+namespace BoxedCode\BinaryUuid\Test\Feature;
 
 use Ramsey\Uuid\Uuid;
-use Spatie\BinaryUuid\Test\TestCase;
-use Spatie\BinaryUuid\Test\TestModel;
+use BoxedCode\BinaryUuid\Test\TestCase;
+use BoxedCode\BinaryUuid\Test\TestModel;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 
 class HasUuidPrimaryKeyTest extends TestCase

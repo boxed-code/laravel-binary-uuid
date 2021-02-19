@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\BinaryUuid;
+namespace BoxedCode\BinaryUuid;
 
 use Exception;
 use Ramsey\Uuid\Uuid;

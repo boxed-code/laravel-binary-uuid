@@ -2,9 +2,9 @@
 
 namespace BoxedCode\BinaryUuid\Test\Feature;
 
-use Ramsey\Uuid\Uuid;
 use BoxedCode\BinaryUuid\Test\TestCase;
 use BoxedCode\BinaryUuid\Test\TestModel;
+use Ramsey\Uuid\Uuid;
 
 class HasBinaryUuidTest extends TestCase
 {

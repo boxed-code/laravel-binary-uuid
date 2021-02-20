@@ -2,9 +2,9 @@
 
 namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
+use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
-use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
 
 class OptimisedUuid extends Benchmark
 {

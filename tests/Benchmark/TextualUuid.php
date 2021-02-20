@@ -2,8 +2,8 @@
 
 namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
-use Ramsey\Uuid\Uuid;
 use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
+use Ramsey\Uuid\Uuid;
 
 class TextualUuid extends Benchmark
 {

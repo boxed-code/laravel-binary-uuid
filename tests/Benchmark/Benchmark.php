@@ -2,11 +2,11 @@
 
 namespace BoxedCode\BinaryUuid\Test\Benchmark;
 
-use Faker\Factory;
-use Doctrine\DBAL\Driver\Connection;
-use Doctrine\DBAL\Logging\DebugStack;
 use BoxedCode\BinaryUuid\Test\Benchmark\Result\FileResult;
 use BoxedCode\BinaryUuid\Test\Benchmark\Result\InlineResult;
+use Doctrine\DBAL\Driver\Connection;
+use Doctrine\DBAL\Logging\DebugStack;
+use Faker\Factory;
 
 abstract class Benchmark
 {

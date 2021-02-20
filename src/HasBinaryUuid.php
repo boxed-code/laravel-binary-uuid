@@ -2,8 +2,8 @@
 
 namespace BoxedCode\BinaryUuid;
 
-use Ramsey\Uuid\Uuid;
 use Illuminate\Database\Eloquent\Model;
+use Ramsey\Uuid\Uuid;
 
 trait HasBinaryUuid
 {
@@ -48,7 +48,7 @@ trait HasBinaryUuid
         }, $uuid));
     }
 
-    public static function generateUuid() : string
+    public static function generateUuid(): string
     {
         return Uuid::uuid1();
     }

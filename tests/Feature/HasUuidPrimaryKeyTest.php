@@ -2,10 +2,10 @@
 
 namespace BoxedCode\BinaryUuid\Test\Feature;
 
-use Ramsey\Uuid\Uuid;
 use BoxedCode\BinaryUuid\Test\TestCase;
 use BoxedCode\BinaryUuid\Test\TestModel;
 use Illuminate\Routing\Middleware\SubstituteBindings;
+use Ramsey\Uuid\Uuid;
 
 class HasUuidPrimaryKeyTest extends TestCase
 {

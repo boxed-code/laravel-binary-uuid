@@ -2,8 +2,8 @@
 
 namespace BoxedCode\BinaryUuid;
 
-use Illuminate\Support\Fluent;
 use Illuminate\Database\Schema\Grammars\SQLiteGrammar as IlluminateSQLiteGrammar;
+use Illuminate\Support\Fluent;
 
 class SQLiteGrammar extends IlluminateSQLiteGrammar
 {
